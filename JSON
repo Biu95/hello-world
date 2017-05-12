@@ -23,16 +23,10 @@
     "Info": {
         "SERVER": [
             "HK,http,47.52.40.121,11340,aes-256-cfb,2017",
-            "SERVERNamb,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
-            "SERVERNamc,socks5,1.2.3.3,8083,User,Password3",
-            "SERVERNamd,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
-            "SERVERName,custom,1.2.3.5,8085,chacha20,Password5,[Module]",
-            "SERVERNamf,custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
-            "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
             "Proxya = select,HK,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
-            "Autoxy = url-test,HK, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "Autoxy = url-test,HK, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
