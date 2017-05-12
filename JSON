@@ -31,11 +31,11 @@
             "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
-            "Proxya = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
-            "Proxyb = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd",
-            "Proxyc = select,SERVERNama,SERVERNamb,SERVERName",
+            "Proxya = select,HK,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
+            "Proxyb = select,HK,SERVERNamb,SERVERNamc,SERVERNamd",
+            "Proxyc = select,HK,SERVERNamb,SERVERName",
             "Proxyd = select,SERVERNamd,SERVERName",
-            "Autoxy = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "Autoxy = url-test,HK, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
