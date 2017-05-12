@@ -4,8 +4,8 @@
         "Version": "4.0"
     },
     "Arguments": {
-        "MITM": "true,15F5092B,https://raw.githubusercontent.com/BurpSuite/RuleList/master/Example/MITM",
-        "External": "true,BurpSuite@[此处删除]0.0.0.0:6170",
+        "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
+        "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
         "DNS": "true,8.8.8.8,1.2.4.8,119.29.29.29,223.5.5.5"
     },
@@ -13,16 +13,16 @@
         "EnhancedMode": true,
         "ExcludeHost": true,
         "WIFIAccess": true,
-        "Replica": false,
+        "Replica": true,
         "URLREGEX": true,
         "IPCIDR6": true,
         "USERAGENT": true,
-        "IPV6": false,
-        "Rule": true
+        "IPV6": true,
+        "Rule": false
     },
     "Info": {
         "SERVER": [
-            "SERVERNama,http,1.2.3.1,8081,User,Password1",
+            "HK,http,47.52.40.121,11340,aes-256-cfb,2017",
             "SERVERNamb,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
             "SERVERNamc,socks5,1.2.3.3,8083,User,Password3",
             "SERVERNamd,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
