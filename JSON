@@ -32,9 +32,6 @@
         ],
         "Group": [
             "Proxya = select,HK,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
-            "Proxyb = select,HK,SERVERNamb,SERVERNamc,SERVERNamd",
-            "Proxyc = select,HK,SERVERNamb,SERVERName",
-            "Proxyd = select,SERVERNamd,SERVERName",
             "Autoxy = url-test,HK, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
