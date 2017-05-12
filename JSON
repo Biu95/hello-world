@@ -25,7 +25,7 @@
             "HK,http,47.52.40.121,11340,aes-256-cfb,2017",
         ],
         "Group": [
-            "Proxya = select,HK,SERVERNamb,SERVERNamc,SERVERNamd,SERVERName",
+            "Proxya = select,HK",
             "Autoxy = url-test,HK, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
