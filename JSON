@@ -5,24 +5,24 @@
     },
     "Arguments": {
         "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
-        "External": "true,BurpSuite@0.0.0.0:6170",
+        "External": "true,[email protected]:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
-        "DNS": "true,8.8.8.8,1.2.4.8,119.29.29.29,223.5.5.5"
+        "DNS": "true,223.5.5.5,223.6.6.6,119.29.29.29,1.2.4.8"
     },
     "General": {
         "EnhancedMode": true,
         "ExcludeHost": true,
         "WIFIAccess": true,
-        "Replica": true,
+        "Replica": false,
         "URLREGEX": true,
         "IPCIDR6": true,
         "USERAGENT": true,
-        "IPV6": true,
-        "Rule": false
+        "IPV6": false,
+        "Rule": true
     },
     "Info": {
         "SERVER": [
-            "HK,http,47.52.40.121,11340,aes-256-cfb,2017",
+            "HK,custom,47.52.40.121,11340,aes-256-cfb,2017,[Module]",
         ],
         "Group": [
             "Proxya = select,HK",
