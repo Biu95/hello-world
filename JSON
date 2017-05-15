@@ -5,7 +5,7 @@
     },
     "Arguments": {
         "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
-        "External": "true,[email protected]:6170",
+        "External": "true,true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
         "DNS": "true,223.5.5.5,223.6.6.6,119.29.29.29,1.2.4.8"
     },
@@ -31,11 +31,8 @@
             "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
-            "Proxya = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd,HK",
-            "Proxyb = select,SERVERNama,SERVERNamb,SERVERNamc,SERVERNamd",
-            "Proxyc = select,SERVERNama,SERVERNamb,HK",
-            "Proxyd = select,SERVERNamd,HK",
-            "Autoxy = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "Proxy = select,HK",
+            "Auto = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
