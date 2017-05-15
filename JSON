@@ -22,7 +22,7 @@
     },
     "Info": {
         "SERVER":[
-            "direct",
+            "Direct,direct",
             "HK,custom,47.52.40.121,11340,aes-256-cfb,2017,[Module]"
         ],
         "Group": [
