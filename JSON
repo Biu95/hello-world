@@ -22,13 +22,7 @@
     },
     "Info": {
         "SERVER": [
-            "SERVERNama,http,1.2.3.1,8081,User,Password1",
-            "SERVERNamb,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
-            "SERVERNamc,socks5,1.2.3.3,8083,User,Password3",
-            "SERVERNamd,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
             "HK,custom,47.52.40.121,11340,aes-256-cfb,2017,[Module]",
-            "SERVERNamf,custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
-            "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
             "Proxy = select,Auto,HK",
