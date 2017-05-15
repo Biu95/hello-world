@@ -31,7 +31,7 @@
             "SERVERNamg,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
-            "Proxy = select,HK",
+            "Proxy = select,Auto,HK",
             "Auto = url-test,SERVERNama, SERVERNamb, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
