@@ -29,7 +29,7 @@
             "TW,custom,tw145.ddxn.net,23019,aes-256-cfb,2017,[Module]"
         ],
         "Group": [
-            "Proxy = select, Auto, TW, HK, KR, JP, US",
+            "Proxy = select, DIRECT, Auto, TW, HK, KR, JP, US",
             "Auto = url-test, TW, HK, KR, JP, US, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
