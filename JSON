@@ -29,12 +29,13 @@
             "TW,custom,tw145.ddxn.net,23019,aes-256-cfb,2017,[Module]"
         ],
         "Group": [
+            "Apple = select, DIRECT, Proxy",
             "Proxy = select, DIRECT, Auto, TW, HK, KR, JP, US",
             "Auto = url-test, TW, HK, KR, JP, US, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
-        "Apple": "DIRECT,TW, HK, KR, JP, US",
+        "Apple": "Apple",
         "Proxy": "Auto",
         "KEYWORD": "Proxy",
         "URLREGEX": "Proxy",
