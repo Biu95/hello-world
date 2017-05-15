@@ -22,15 +22,15 @@
     },
     "Info": {
         "SERVER":[
-            "TW,custom,tw145.ddxn.net,23019,aes-256-cfb,2017,[Module]",
             "HK,custom,47.52.40.121,11340,aes-256-cfb,2017,[Module]",
             "KR,custom,kr122.ddxn.net,23019,chacha20,2017,[Module]",
             "JP,custom,jp114.ddxn.net,23019,chacha20,2017,[Module]",
-            "US,custom,us134.ddxn.net,23019,aes-256-cfb,2017,[Module]"
+            "US,custom,us134.ddxn.net,23019,aes-256-cfb,2017,[Module]",
+            "TW,custom,tw145.ddxn.net,23019,aes-256-cfb,2017,[Module]"
         ],
         "Group": [
-            "Proxy = select, Auto, HK, TW, KR, JP, US",
-            "Auto = url-test, HK, TW, KR, JP, US, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "Proxy = select, Auto, TW, HK, KR, JP, US",
+            "Auto = url-test, TW, HK, KR, JP, US, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
