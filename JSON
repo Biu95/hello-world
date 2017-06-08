@@ -36,7 +36,7 @@
     },
     "SUFFIX": {
         "Apple": "Apple",
-        "Proxy": "Auto",
+        "Proxy": "Proxy",
         "KEYWORD": "Proxy",
         "URLREGEX": "Proxy",
         "USERAGENT": "Proxy",
