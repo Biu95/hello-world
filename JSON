@@ -1,13 +1,13 @@
 {
     "Configuration": {
         "Author": "BurpSuite",
-        "Version": "4.0"
+        "Version": "6.0"
     },
     "Arguments": {
         "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
-        "External": "true,true,BurpSuite@0.0.0.0:6170",
+        "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
-        "DNS": "true,223.5.5.5,223.6.6.6,119.29.29.29,1.2.4.8"
+        "DNS": "true,system,223.5.5.5,223.6.6.6,119.29.29.29,208.67.222.222,208.67.220.220"
     },
     "General": {
         "EnhancedMode": true,
@@ -21,17 +21,17 @@
         "Rule": false
     },
     "Info": {
-        "SERVER":[
-            "HK,custom,hk179.ddxn.net,23019,chacha20,2017,[Module]",
-            "KR,custom,kr122.ddxn.net,23019,chacha20,2017,[Module]",
-            "JP,custom,jp114.ddxn.net,23019,chacha20,2017,[Module]",
-            "US,custom,us134.ddxn.net,23019,aes-256-cfb,2017,[Module]",
-            "TW,custom,tw145.ddxn.net,23019,aes-256-cfb,2017,[Module]"
+        "SERVER": [
+            "[Surge]|HK,custom,47.90.100.223,23019,chacha20,2017,[Module]",
+            "[Surge]|KR,custom,191.101.171.42,23019,chacha20,2017,[Module]",
+            "[Surge]|JP,custom,jp197.ddxn.net,23019,chacha20,2017,[Module]",
+            "[Surge]|SG,custom,47.88.230.119,23019,chacha20,2017,[Module]",
+            "[Surge]|TW,custom,61.221.75.251,23019,aes-256-cfb,2017,[Module]"
         ],
         "Group": [
-            "Proxy = select, DIRECT, Auto, TW, HK, KR, JP, US",
-            "Apple = select, DIRECT, Proxy",
-            "Auto = url-test, TW, HK, KR, JP, US, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Proxy = select, DIRECT, Auto, TW, HK, KR, JP, SG",
+            "[Surge]|Apple = select, DIRECT, Proxy",
+            "[Surge]|Auto = url-test, TW, HK, KR, JP, SG, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
@@ -46,6 +46,7 @@
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
-        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json"
+        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json",
+        "Merge": "https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Example/Merge.json"
     }
 }
