@@ -12,7 +12,7 @@
     "General": {
         "EnhancedMode": true,
         "ExcludeHost": true,
-        "WIFIAccess": allow-wifi-access,
+        "WIFIAccess": true,
         "Replica": false,
         "URLREGEX": true,
         "IPCIDR6": true,
