@@ -7,7 +7,7 @@
         "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
         "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
-        "DNS": "true,system,223.5.5.5,223.6.6.6,119.29.29.29,208.67.222.222,208.67.220.220"
+        "DNS": "false,system,223.5.5.5,223.6.6.6,119.29.29.29,208.67.222.222,208.67.220.220"
     },
     "General": {
         "EnhancedMode": true,
@@ -42,7 +42,7 @@
         "USERAGENT": "Proxy",
         "IPCIDR6": "Proxy",
         "IPCIDR": "Proxy",
-        "Other": "Auto"
+        "Other": "Proxy"
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
