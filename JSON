@@ -22,9 +22,9 @@
     },
     "Info": {
         "SERVER": [
-            "[Surge]|HK = custom,47.90.100.223,23019,chacha20,2017,[Module]",
-            "[Surge]|SG = custom,47.88.230.119,23019,chacha20,2017,[Module]",
-            "[Surge]|TW = custom,61.221.75.251,23019,aes-256-cfb,2017,[Module]"
+            "[Surge]|HK = custom,47.90.100.223,23019,chacha20,1995,[Module]",
+            "[Surge]|SG = custom,47.88.230.119,23019,chacha20,1995,[Module]",
+            "[Surge]|TW = custom,61.221.75.251,23019,aes-256-cfb,1995,[Module]"
         ],
         "Group": [
             "[Surge]|Proxy = select, DIRECT, Auto, TW, HK, SG",
