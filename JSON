@@ -4,10 +4,10 @@
         "Version": "6.0"
     },
     "Arguments": {
-        "MITM": "true,89BAA8C1,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
+        "MITM": "true,69885AA4,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
         "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
-        "DNS": "true,system,1.2.4.8,8.8.8.8,223.5.5.5,223.6.6.6,119.29.29.29"
+        "DNS": "false,"
     },
     "General": {
         "EnhancedMode": true,
@@ -16,26 +16,28 @@
         "Replica": false,
         "URLREGEX": true,
         "IPCIDR6": true,
+        "PROCESS": true,
         "USERAGENT": true,
-        "IPV6": true,
+        "Header": true,
+        "IPV6": false,
         "Rule": false
     },
     "Info": {
         "SERVER": [
-            "[Surge]|HK = custom,47.90.100.223,23019,chacha20,1995,[Module]",
-            "[Surge]|SG = custom,47.88.230.119,23019,chacha20,1995,[Module]",
-            "[Surge]|TW = custom,61.221.75.251,23019,aes-256-cfb,1995,[Module]"
+            "[Surge]|HK = custom,hk179.shadowfly.me,23019,chacha20,1995,[Module]",
+            "[Surge]|SG = custom,sg166.shadowfly.me,23019,chacha20,1995,[Module]"
         ],
         "Group": [
-            "[Surge]|Proxy = select, DIRECT, Auto, TW, HK, SG",
-            "[Surge]|Apple = select, DIRECT, Proxy",
-            "[Surge]|Auto = url-test, TW, HK, SG, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[Surge]|Proxy = select,DIRECT,Auto,HK,SG",
+            "[Surge]|Apple = select,DIRECT,HK,SG",
+            "[Surge]|Auto = url-test,HK, SG, url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     },
     "SUFFIX": {
         "Apple": "Apple",
         "Proxy": "Proxy",
         "KEYWORD": "Proxy",
+        "PROCESS": "Proxy",
         "URLREGEX": "Proxy",
         "USERAGENT": "Proxy",
         "IPCIDR6": "Proxy",
@@ -44,7 +46,7 @@
     },
     "Other": {
         "Module": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Module/Module",
-        "List": "https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json",
+        "List": "https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Developers.json",
         "Merge": "https://raw.githubusercontent.com/CloudGateRules/RuleList/master/Example/Merge.json"
     }
 }
