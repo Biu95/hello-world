@@ -7,7 +7,7 @@
         "MITM": "true,69885AA4,https://raw.githubusercontent.com/Biu95/hello-world/master/MITM",
         "External": "true,BurpSuite@0.0.0.0:6170",
         "MacOS": "true,1.2.3.4,5.6.7.8,3040,5030",
-        "DNS": "true"
+        "DNS": "true,system"
     },
     "General": {
         "EnhancedMode": true,
